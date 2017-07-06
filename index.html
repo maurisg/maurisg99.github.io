@@ -1,148 +1,136 @@
 <!DOCTYPE html>
-<html >
-<head>
-  <meta charset="UTF-8">
-  <title>Portfolio</title>
-  <script src="open.js"></script>
-  
-  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Portfolio</title>
+        <script src="index.js"></script>
 
-  <link rel="stylesheet" href="style.css">
+        <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+        <script async="" src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <!--BURGER MENU-->
+        <div class="sidebar">
+            <h2>MENU</h2>
+            <ul>
+                <li><a href="#Header">Home</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#Portfolio">Portfolio</a></li>
+                <li><a href="#Contact">Contact</a></li>
+            </ul>
+        </div>
 
-  
-</head>
+        <div class="content">
+            <img src="https://image.flaticon.com/icons/svg/128/128453.svg" alt="Burger Menu" width="30px" class="menu-bar"/>
 
-<body>
-  <!--BURGER MENU-->
-<div class="sidebar">
-  <h2>MENU</h2>
-<ul>
-  <li><a href="#Header">Home</a></li>
-  <li><a href="#About">About</a></li>
-  <li><a href="#Portfolio">Portfolio</a></li>
-  <li><a href="#Contact">Contact</a></li>
-</ul>
-</div>
+            <!--HEADER-->
+            <header id="Header">
+                <div class="image"></div>
+                <div id="heading">
+                    <h1 class="h1">Hi, I am <span class="Mauri">Mauricio</span></h1>
+                    <h4>Aspiring Web Designer and Developer</h4>
+                </div>
+            </header>
 
-<div class="content">
-  <img src="https://image.flaticon.com/icons/svg/128/128453.svg" alt="Burger Menu" width="30px" class="menu-bar"/>
-  
-<!--HEADER-->
-<header id="Header">
-  <div class="image"></div>
-  <div id="heading">
-    <h1 class="h1">Hi, I am <span class="Mauri">Mauricio</span></h1>
-    <h4>Aspiring Web Designer and Developer</h4>
-  </div>
-</header>
-  
-<!--ABOUT-->
-  <section id="About">
-    <h2 class="about">MY STORY</h2>
-    <h3 class="quote">A little piece of who I am and what I've done.</h3>
-    <hr width="50px" style="border-color:#000000"/>
-    <div class="p1">
-    <p>I am an aspiring Web Designer and Developer. Throughout highschool I always struggled with what I wanted to do with my life; what I wanted to study and where. I had many options and none of them seemed to please me.</p>
-    <p>I always loved design, but I knew that the life of a Graphic Designer is always very complicated. I took courses on 3D Design and borrowed my sister's camera to learn photography and filmmaking. What can I say, I like art. I started working as a freelancer but mostly designing Powerpoint Presentations for other people. Amazingly I earned more than I would imagine, but I knew that wasn't enough. And so it began my journey to learn coding.</p>
-    <p>Before <b>FreeCodeCamp</b> I only made one website, it sucked. But now, after the first few courses I've come to realize that I love coding. The feeling of creating something that wasn't there before. So hopefully, in a few more years my coding levels improve. So stick around because someday I am going to be great.</p>
-    </div>
-    <br>
-    <div class="text-center">
-    <a href="#Portfolio" class="btn btn-default" role="button">CHECK MY WORK</a>
-    </div>
-  </section>
+            <!--ABOUT-->
+            <section id="About">
+                <h2 class="about">MY STORY</h2>
+                <h3 class="quote">A little piece of who I am and what I've done.</h3>
+                <hr width="50px" style="border-color:#000000"/>
+                <div class="p1">
+                    <p>I am an aspiring Web Designer and Developer. Throughout highschool I always struggled with what I wanted to do with my life; what I wanted to study and where. I had many options and none of them seemed to please me.</p>
+                    <p>I always loved design, but I knew that the life of a Graphic Designer is always very complicated. I took courses on 3D Design and borrowed my sister's camera to learn photography and filmmaking. What can I say, I like art. I started working as a freelancer but mostly designing Powerpoint Presentations for other people. Amazingly I earned more than I would imagine, but I knew that wasn't enough. And so it began my journey to learn coding.</p>
+                    <p>Before <b>FreeCodeCamp</b> I only made one website, it sucked. But now, after the first few courses I've come to realize that I love coding. The feeling of creating something that wasn't there before. So hopefully, in a few more years my coding levels improve. So stick around because someday I am going to be great.</p>
+                </div>
+                <br>
+                <div class="text-center">
+                    <a href="#Portfolio" class="btn btn-default" role="button">CHECK MY WORK</a>
+                </div>
+            </section>
 
-<!--PORTFOLIO-->
-  <section id="Portfolio">
-    <h2 class="portfolio">MY WORK</h2>
-    <h3 class="quote">A bunch of things that I've done so far.</h3>
-    <hr width="50px" style="border-color:#000000"/>
+            <!--PORTFOLIO-->
+            <section id="Portfolio">
+                <h2 class="portfolio">MY WORK</h2>
+                <h3 class="quote">A bunch of things that I've done so far.</h3>
+                <hr width="50px" style="border-color:#000000"/>
 
-    <div class="gallery">
-    <img src="https://images.pexels.com/photos/404291/pexels-photo-404291.jpeg?w=940&h=650&auto=compress&cs=tinysrgb" alt="San Francisco" width="200px" class="thumbnail"/>
-            <img src="https://images.pexels.com/photos/196802/pexels-photo-196802.jpeg?w=940&h=650&auto=compress&cs=tinysrgb" alt="Brown Cliff" width="200px" class="thumbnail"/>
-          <img src="https://images.pexels.com/photos/217007/pexels-photo-217007.jpeg?w=940&h=650&auto=compress&cs=tinysrgb" alt="Crocodile" width="200px" class="thumbnail"/>
-          <img src="https://images.pexels.com/photos/164829/pexels-photo-164829.jpeg?w=940&h=650&auto=compress&cs=tinysrgb" alt="Microphone" width="200px" class="thumbnail" />
-          <img src="https://images.pexels.com/photos/397531/pexels-photo-397531.jpeg?w=940&h=650&auto=compress&cs=tinysrgb" alt="Skyscraper" width="200px" class="thumbnail"/>
-          <img src="https://images.pexels.com/photos/428861/pexels-photo-428861.jpeg?w=940&h=650&auto=compress&cs=tinysrgb" alt="Beetle" width="200px" class="thumbnail"/>
-    </div>
-    <br>
-    <div class="text-center">
-    <a href="#Contact" class="btn btn-default" role="button">GET IN TOUCH?</a>
-    </div>
-  </section>
+                <div class="gallery">
+                    <img src="https://images.pexels.com/photos/404291/pexels-photo-404291.jpeg?w=940&h=650&auto=compress&cs=tinysrgb" alt="San Francisco" width="200px" class="thumbnail"/>
+                    <img src="https://images.pexels.com/photos/196802/pexels-photo-196802.jpeg?w=940&h=650&auto=compress&cs=tinysrgb" alt="Brown Cliff" width="200px" class="thumbnail"/>
+                    <img src="https://images.pexels.com/photos/217007/pexels-photo-217007.jpeg?w=940&h=650&auto=compress&cs=tinysrgb" alt="Crocodile" width="200px" class="thumbnail"/>
+                    <img src="https://images.pexels.com/photos/164829/pexels-photo-164829.jpeg?w=940&h=650&auto=compress&cs=tinysrgb" alt="Microphone" width="200px" class="thumbnail" />
+                    <img src="https://images.pexels.com/photos/397531/pexels-photo-397531.jpeg?w=940&h=650&auto=compress&cs=tinysrgb" alt="Skyscraper" width="200px" class="thumbnail"/>
+                    <img src="https://images.pexels.com/photos/428861/pexels-photo-428861.jpeg?w=940&h=650&auto=compress&cs=tinysrgb" alt="Beetle" width="200px" class="thumbnail"/>
+                </div>
+                <br>
+                <div class="text-center">
+                    <a href="#Contact" class="btn btn-default" role="button">GET IN TOUCH?</a>
+                </div>
+            </section>
 
-<!--CONTACT-->
-  <section id="Contact">
-     <h2 class="contact">CONTACT</h2>
-    <h3 class="quote">Write in a few words whatever you want to tell me.</h3>
-    <hr width="50px" style="border-color:#000000"/>
-    <p>Enough about me, I want to hear about you and anything you have in mind. Please fill the form below to contact me!</p>
-    <form>
-<ul class="form-style-1">
-    <li><label>Full Name <span class="required">*</span></label>
-      <input type="text" name="field1" class="field-divided" placeholder="First" />&nbsp;<input type="text" name="field2" class="field-divided" placeholder="Last" />
-    </li>
-    <li>
-        <label>Email <span class="required">*</span></label>
-        <input type="email" name="field3" class="field-long" />
-    </li>
-    <li>
-        <label>Subject</label>
-        <select name="field4" class="field-select">
-        <option value="Advertise">Advertise</option>
-        <option value="Partnership">Partnership</option>
-        <option value="General Question">General</option>
-        </select>
-    </li>
-    <li>
-        <label>Your Message <span class="required">*</span></label>
-        <textarea name="field5" id="field5" class="field-long field-textarea"></textarea>
-    </li>
-    <li>
-        <input type="submit" value="Submit" />
-    </li>
-</ul>
-</form>
-  </section>
-  <br>
-<footer>
-  <h2 id="foot-title">I LOVE MEETING NEW PEOPLE</h2>
-  <h4 id="foot-comment">Want to work together or just chat? Feel free to contact me using the form, or any of my social networks listed below.</h4>
-  <br>
-  <br>
-  <ul class="images">
-  <li>
-    <a href="https://www.facebook.com/mauri.salasgarcia"><img src="https://image.flaticon.com/icons/svg/145/145802.svg" alt="facebook" id="fb"/></a>
-  </li>
-  
-  <li>
-    
-    <a href="https://twitter.com/maurysg29"><img src="https://image.flaticon.com/icons/svg/145/145812.svg" alt="twitter" id="tweet"/></a>
-  </li>
-  
-  <li>
-    <a href="https://www.instagram.com/mauriciosalas29/"><img src="https://image.flaticon.com/icons/svg/145/145805.svg" alt="instagram" id="ig"/></a>
-  </li>
-  
-  <li>
-    
-    <a href="https://plus.google.com/u/0/112677584992766960367"><img src="https://image.flaticon.com/icons/svg/145/145804.svg" alt="google-plus" id="g-plus"/></a>
-  </li>
-</ul>
-  <br>
-  <br>
-<ul class="footer-nav">
-  <li><a href="#Header">Home</a></li>
-  <li><a href="#About">About</a></li>
-  <li><a href="#Portfolio">Portfolio</a></li>
-  <li><a href="#Contact">Contact</a></li>
-</ul>
-    </footer>
-</div>
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
-
-    <script src="js/index.js"></script>
-
-</body>
+            <!--CONTACT-->
+            <section id="Contact">
+                <h2 class="contact">CONTACT</h2>
+                <h3 class="quote">Write in a few words whatever you want to tell me.</h3>
+                <hr width="50px" style="border-color:#000000"/>
+                <p>Enough about me, I want to hear about you and anything you have in mind. Please fill the form below to contact me!</p>
+                <form>
+                    <ul class="form-style-1">
+                        <li><label>Full Name <span class="required">*</span></label>
+                            <input type="text" name="field1" class="field-divided" placeholder="First" />&nbsp;<input type="text" name="field2" class="field-divided" placeholder="Last" />
+                        </li>
+                        <li>
+                            <label>Email <span class="required">*</span></label>
+                            <input type="email" name="field3" class="field-long" />
+                        </li>
+                        <li>
+                            <label>Subject</label>
+                            <select name="field4" class="field-select">
+                                <option value="Advertise">Advertise</option>
+                                <option value="Partnership">Partnership</option>
+                                <option value="General Question">General</option>
+                            </select>
+                        </li>
+                        <li>
+                            <label>Your Message <span class="required">*</span></label>
+                            <textarea name="field5" id="field5" class="field-long field-textarea"></textarea>
+                        </li>
+                        <li>
+                            <input type="submit" value="Submit" />
+                        </li>
+                    </ul>
+                </form>
+            </section>
+            <br>
+            <footer>
+                <h2 id="foot-title">I LOVE MEETING NEW PEOPLE</h2>
+                <h4 id="foot-comment">Want to work together or just chat? Feel free to contact me using the form, or any of my social networks listed below.</h4>
+                <br>
+                <br>
+                <ul class="images">
+                    <li>
+                      <a href="https://www.facebook.com/mauri.salasgarcia"><img src="https://image.flaticon.com/icons/svg/145/145802.svg" alt="facebook" id="fb"/></a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/maurysg29"><img src="https://image.flaticon.com/icons/svg/145/145812.svg" alt="twitter" id="tweet"/></a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/mauriciosalas29/"><img src="https://image.flaticon.com/icons/svg/145/145805.svg" alt="instagram" id="ig"/></a>
+                    </li>
+                    <li>
+                        <a href="https://plus.google.com/u/0/112677584992766960367"><img src="https://image.flaticon.com/icons/svg/145/145804.svg" alt="google-plus" id="g-plus"/></a>
+                    </li>
+                </ul>
+                <br>
+                <br>
+                <ul class="footer-nav">
+                    <li><a href="#Header">Home</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#Portfolio">Portfolio</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                </ul>
+            </footer>
+        </div>
+    </body>
 </html>
