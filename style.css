@@ -14,7 +14,7 @@
     margin: 0;
     padding: 10px;
     background: #2a2a2a;
-    font-family: "Noto Sans", sans-serif;
+    font-family: "Lato", sans-serif;
     font-weight: bold;
 }
 
@@ -28,7 +28,7 @@
     outline: 1px solid #2a2a2a;
     transition-property: border;
     transition-duration: .3s;
-    font-family: "Noto Sans", sans-serif;
+    font-family: "Lato", sans-serif;
 }
 
 .sidebar li:hover{
@@ -138,7 +138,7 @@ section{
 }
 
 .quote{
-    font-family: "Noto Sans", sans-serif;
+    font-family: "Lato", sans-serif;
     margin-top: -3px;
     text-align: center;
     font-size: 15px;
