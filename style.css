@@ -1,194 +1,186 @@
-/*FONTS*/
-@import url(https://fonts.googleapis.com/css?family=Roboto);
-@import url(https://fonts.googleapis.com/css?family=Noto+Serif);
-@import url(https://fonts.googleapis.com/css?family=Lato);
-@import url(https://fonts.googleapis.com/css?family=Oswald);
-@import url(https://fonts.googleapis.com/css?family=Satisfy);
-
 /*BURGER MENU*/
 .sidebar{
-  position: absolute;
-  width: 250px;
-  height: 100%;
-  background: #333;
-  color: #fff;
-  z-index: 1;
-  outline: 1px solid #2a2a2a;
+    position: absolute;
+    width: 250px;
+    height: 100%;
+    background: #333;
+    color: #fff;
+    z-index: 1;
+    outline: 1px solid #2a2a2a;
 }
 
 .sidebar h2{
-  text-align: center;
-  margin: 0;
-  padding: 10px;
-  background: #2a2a2a;
-  font-family: Lato;
-  font-weight: bold;
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+    background: #2a2a2a;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: bold;
 }
 
 .sidebar ul{
-  list-style: none;
-  padding: 0;
-  margin: 0;
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
 .sidebar li{
-  outline: 1px solid #2a2a2a;
-  transition-property: border;
-  transition-duration: .3s;
-  font-family: Lato;
+    outline: 1px solid #2a2a2a;
+    transition-property: border;
+    transition-duration: .3s;
+    font-family: "Noto Sans", sans-serif;
 }
 
 .sidebar li:hover{
-  background: #444;
-  border-left: 5px solid #eee;
+    background: #444;
+    border-left: 5px solid #eee;
 }
 
 .sidebar a{
-  display: block;
-  color: #fff;
-  text-decoration: none;
-  padding: 10px;
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
 }
 
 .content{
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  background: #eee;
-  padding: none;
-  z-index: 1;
-  transition-duration: 0.3s;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: #eee;
+    padding: 0;
+    z-index: 1;
+    transition-duration: 0.3s;
 }
 
 .menu-bar{
-  cursor: pointer;
-  position: absolute;
-  margin: 10px;
-  z-index: 2;
+    cursor: pointer;
+    position: absolute;
+    margin: 10px;
+    z-index: 2;
 }
 
 .open{
-  margin-left: 250px;
+    margin-left: 250px;
 }
 
 /*HEADER*/
 
 header{
-  height: 104vh;
-  margin-bottom:20px;
-  position: relative;
+    height: 104vh;
+    margin-bottom:20px;
+    position: relative;
 }
 
 header .image{
-  background-image:url(https://images.pexels.com/photos/7369/startup-photos.jpg?w=940&h=650&auto=compress&cs=tinysrgb);
-  background-size: cover; 
-  filter: grayscale(1) blur(1px);
-  -webkit-filter: grayscale(1) blur(1px);
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  z-index: -1;
-  width: 100%;
+    background-image:url(https://images.pexels.com/photos/7369/startup-photos.jpg?w=940&h=650&auto=compress&cs=tinysrgb);
+    background-size: cover;
+    filter: grayscale(1) blur(1px);
+    -webkit-filter: grayscale(1) blur(1px);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
 }
 
 #heading{
-  position: absolute;
-  top: 30%;
+    position: absolute;
+    top: 30%;
 }
 
 .h1{
-  font-family: Noto Serif;
+  font-family: "Noto Sans", sans-serif;
   margin-left: 40px;
   font-size: 60px;
 }  
 
 .Mauri{
-  font-family: Roboto;
-  font-weight: bold;
-  font-style: italic;
-  color:#eeba19;
-  font-size: 60px;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    color:#eeba19;
+    font-size: 60px;
 }
 
 header h4{
-  font-family: Lato;
-  font-size: 15px;
-  margin-left: 43px;
-  margin-top: -5px;
-  color: #5597F0;
-  font-weight: bold;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 15px;
+    margin-left: 43px;
+    margin-top: -5px;
+    color: #5597F0;
+    font-weight: bold;
 }
 
 p{
-  max-width: 600px;
-  text-align: justify;
-  margin: 0 auto 20px;
+    max-width: 600px;
+    text-align: justify;
+    margin: 0 auto 20px;
 }
 
 /*GENERAL SETTINGS*/
 section{
-  height: 100%;
-  margin-bottom:45px;
+    height: 100%;
+    margin-bottom:45px;
 }
 
 .btn-default{
-  font-family: Lato;
-  font-size: 10px;
-  font-weight: bold;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 10px;
+    font-weight: bold;
 }
 
 /*ABOUT*/
 .about{
-  font-family: Oswald;
-  font-weight: bold;
-  padding-top: 40px;
-  text-align: center;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: bold;
+    padding-top: 40px;
+    text-align: center;
 }
 
 .quote{
-  font-family: Satisfy;
-  margin-top: -3px;
-  text-align: center;
-  font-size: 15px;
+    font-family: "Noto Sans", sans-serif;
+    margin-top: -3px;
+    text-align: center;
+    font-size: 15px;
 }
 
 p{
-  text-align: center;
+    text-align: center;
 }
 
 /*PORTFOLIO*/
 #Portfolio{
-  text-align: center;
+    text-align: center;
 }
 
 .portfolio{
-  font-family: Oswald;
-  font-weight: bold;
-  padding-top: 40px;
-  text-align: center;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: bold;
+    padding-top: 40px;
+    text-align: center;
 }
 
 .gallery{
-  display: inline-block;
-  text-align: center;
-  columns: 3;
-  -webkit-columns: 3;
-  -moz-columns: 3;
+    display: inline-block;
+    text-align: center;
+    columns: 3;
+    -webkit-columns: 3;
+    -moz-columns: 3;
 }
 /*CONTACT*/
 
 .contact{
-  font-family: Oswald;
-  font-weight: bold;
-  padding-top: 40px;
-  text-align: center;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: bold;
+    padding-top: 40px;
+    text-align: center;
 }
 
 .form-style-1 {
     margin:10px auto;
     max-width: 400px;
     padding: 20px 12px 10px 20px;
-    font: 13px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-family: "Noto Sans", sans-serif;
 }
 
 .form-style-1 li {
@@ -200,7 +192,7 @@ p{
 
 .form-style-1 label{
     margin:0 0 3px 0;
-    padding:0px;
+    padding:0;
     display:block;
     font-weight: bold;
 }
@@ -211,12 +203,11 @@ p{
     -moz-box-sizing: border-box;
     border:1px solid #BEBEBE;
     padding: 7px;
-    margin:0px;
+    margin:0;
     -webkit-transition: all 0.30s ease-in-out;
     -moz-transition: all 0.30s ease-in-out;
-    -ms-transition: all 0.30s ease-in-out;
     -o-transition: all 0.30s ease-in-out;
-    outline: none;  
+    outline: none;
 }
 
 .form-style-1 input[type=text]:focus, 
@@ -271,42 +262,42 @@ p{
 
 /*FOOTER*/
 footer{
-  text-align: center;
-  width: 100%;
-  padding: 40px 0;
-  background-color: #c0c9d6;
+    text-align: center;
+    width: 100%;
+    padding: 40px 0;
+    background-color: #c0c9d6;
 }
 
 #foot-title{
-  text-align: center;
-  font-family: Oswald;
-  font-weight: bold;
+    text-align: center;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: bold;
 }
 
 #foot-comment{
-  text-align: center;
-  font-family: Lato;
-  font-size: 15px;
-  margin: -5px 43px 20px 43px;
+    text-align: center;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 15px;
+    margin: -5px 43px 20px 43px;
 }
 
 footer ul{
-  list-style: none;
-  text-align: center;
+    list-style: none;
+    text-align: center;
 }
 
 footer ul li{
-  display: inline-block;
+    display: inline-block;
 }
 
 footer img{
-  width: 50px;
+    width: 50px;
 }
 
 .footer-nav{
-  text-align: left;
-  margin: 10px;
-  text-color: #000;
+    text-align: left;
+    margin: 10px;
+    color: #000;
 }
 
 /* Social Media icons */
