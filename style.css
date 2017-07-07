@@ -28,7 +28,7 @@
     outline: 1px solid #2a2a2a;
     transition-property: border;
     transition-duration: .3s;
-    font-family: "Lato", sans-serif;
+    font-family: "Lato";
 }
 
 .sidebar li:hover{
@@ -103,7 +103,7 @@ header .image{
 }
 
 header h4{
-    font-family: "Lato", sans-serif;
+    font-family: "Noto Sans", sans-serif;
     font-size: 15px;
     margin-left: 43px;
     margin-top: -5px;
@@ -124,7 +124,7 @@ section{
 }
 
 .btn-default{
-    font-family: "Lato", sans-serif;
+    font-family: "Noto Sans", sans-serif;
     font-size: 10px;
     font-weight: bold;
 }
@@ -138,10 +138,11 @@ section{
 }
 
 .quote{
-    font-family: "Lato", sans-serif;
+    font-family: "Lato";
     margin-top: -3px;
     text-align: center;
     font-size: 15px;
+    font-style: italics;
 }
 
 p{
@@ -269,14 +270,14 @@ footer{
 }
 
 #foot-title{
-    font-family: "Noto Sans", sans-serif;
     text-align: center;
+    font-family: "Noto Sans", sans-serif;
     font-weight: bold;
 }
 
 #foot-comment{
     text-align: center;
-    font-family: "Lato", sans-serif;
+    font-family: "Noto Sans", sans-serif;
     font-size: 15px;
     margin: -5px 43px 20px 43px;
 }
